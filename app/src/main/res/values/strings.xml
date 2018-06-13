@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PopularMovies..</string>
+    <string name="label_text_button_favorite">FAVORITE</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_label_Popular"> POPULAR</string>
+    <string name="pref_label_top_rate"> TOP_RATED</string>
+    <string name="pref_label_favorite"> FAVORITE</string>
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_popular" translatable="false">popular</string>
+    <string name="pref_top_rated" translatable="false">top_rated</string>
+    <string name="pref_favorite" translatable="false">favorite</string>
+
+</resources>
