@@ -1,4 +1,4 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.database;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

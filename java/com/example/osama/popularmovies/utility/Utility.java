@@ -1,8 +1,10 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.utility;
 
 import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
+
+import com.example.osama.popularmovies.BuildConfig;
 
 import org.json.JSONArray;
 import org.json.JSONException;

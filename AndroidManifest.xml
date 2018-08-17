@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_movies_circle"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,23 +20,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailsActivity"
-            android:parentActivityName=".MainActivity">
+            android:name=".activities.DetailsActivity"
+            android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".SettingsActivity"
+        <activity android:name=".activities.SettingsActivity"
             android:label="@string/action_settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activities.MainActivity" />
 
         </activity>
         <provider
             android:authorities="com.example.osama.popularmovies"
-            android:name=".MovieContentProvider"
+            android:name=".database.MovieContentProvider"
             android:exported="false"/>
     </application>
 

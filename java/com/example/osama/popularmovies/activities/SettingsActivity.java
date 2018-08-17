@@ -1,8 +1,10 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import com.example.osama.popularmovies.R;
 
 public class SettingsActivity extends AppCompatActivity {
 

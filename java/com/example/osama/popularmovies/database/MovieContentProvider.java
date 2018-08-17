@@ -1,4 +1,4 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.database;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -11,7 +11,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import static com.example.osama.popularmovies.MovieContract.MovieEntry.TABLE_NAME;
+import static com.example.osama.popularmovies.database.MovieContract.MovieEntry.TABLE_NAME;
 
 /**
  * Created by osama on 3/29/2018.

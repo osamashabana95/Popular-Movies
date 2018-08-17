@@ -1,8 +1,10 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.osama.popularmovies.database.MovieContract;
 
 /**
  * Created by osama on 3/29/2018.

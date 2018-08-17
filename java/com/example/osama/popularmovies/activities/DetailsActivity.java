@@ -1,7 +1,6 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.activities;
 
 import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -10,22 +9,24 @@ import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceManager;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.osama.popularmovies.database.MovieContract;
+import com.example.osama.popularmovies.R;
+import com.example.osama.popularmovies.adapters.ReviewAdapter;
+import com.example.osama.popularmovies.adapters.TrailerAdapter;
+import com.example.osama.popularmovies.utility.Utility;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.net.URI;
 import java.net.URL;
 
 public class DetailsActivity extends AppCompatActivity implements TrailerAdapter.TrailerOnClickHandler {

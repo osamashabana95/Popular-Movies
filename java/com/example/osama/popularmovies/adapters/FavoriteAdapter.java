@@ -1,4 +1,4 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.adapters;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.example.osama.popularmovies.database.MovieContract;
+import com.example.osama.popularmovies.R;
 import com.squareup.picasso.Picasso;
 
 /**
@@ -87,7 +89,7 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
      * When data changes and a re-query occurs, this function swaps the old Cursor
      * with a newly updated Cursor (Cursor c) that is passed in.
      */
-    void swapCursor(Cursor newCursor) {
+   public void swapCursor(Cursor newCursor) {
         mCursor = newCursor;
         notifyDataSetChanged();
     }

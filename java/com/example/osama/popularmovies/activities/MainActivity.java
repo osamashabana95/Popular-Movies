@@ -1,6 +1,5 @@
-package com.example.osama.popularmovies;
+package com.example.osama.popularmovies.activities;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -20,10 +19,14 @@ import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
+
+import com.example.osama.popularmovies.adapters.FavoriteAdapter;
+import com.example.osama.popularmovies.database.MovieContract;
+import com.example.osama.popularmovies.adapters.MoviesAdapter;
+import com.example.osama.popularmovies.R;
+import com.example.osama.popularmovies.utility.Utility;
 
 import java.net.URL;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener{
     private static final String SEARCH_QUERY_URL_EXTRA = "query";
@@ -32,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     public String sort_by ;
     GridLayoutManager mLayoutManager;
     private RecyclerView mRecyclerView;
-    private    MoviesAdapter mMoviesAdapter;
+    private MoviesAdapter mMoviesAdapter;
     private int mPosition = RecyclerView.NO_POSITION;
     private FavoriteAdapter mFavoriteAdapter;
     private Parcelable mListState;
