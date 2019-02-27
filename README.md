@@ -15,10 +15,10 @@ Built an app, optimized for tablets, to help users discover popular and highly r
 ## Libraries
 This project uses the following libraries:
 
-Picasso
+https://github.com/square/picasso
 
 ## License
-Copyright 2013 Square, Inc.
+Copyright 2018 Osama Shabana
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
