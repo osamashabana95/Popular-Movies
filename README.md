@@ -15,7 +15,7 @@ Built an app, optimized for tablets, to help users discover popular and highly r
 ## Libraries
 This project uses the following libraries:
 
-https://github.com/square/picasso
+[Picasso](https://github.com/square/picasso)
 
 ## License
 Copyright 2018 Osama Shabana
